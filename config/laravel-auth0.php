@@ -93,7 +93,7 @@ return [
         'https://%s/v2/logout?client_id=%s&returnTo=%s',
         env( 'AUTH0_DOMAIN' ),
         env( 'AUTH0_CLIENT_ID' ),
-        url('/')
+        env( 'APP_URL' )
     ),
 
     /*
