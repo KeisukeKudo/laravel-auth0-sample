@@ -43,8 +43,6 @@ class AuthenticationTest extends TestCase
      */
     public function test_Logout()
     {
-        \Session::put('auth0__user', '__test_user__');
-        $service = new Auth0Service($this->config);
         $user = User::create([
             'name' => 'name',
             'email' => 'example@mail.com',
