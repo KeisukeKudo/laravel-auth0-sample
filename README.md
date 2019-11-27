@@ -3,12 +3,12 @@
 https://auth0.com/docs/quickstart/webapp/laravel  
 
 ## Change files
-- [/app/Http/Controllers/Auth/Auth0IndexController.php](https://github.com/KeisukeKudo/laravel-auth0-sample/blob/master/app/Http/Controllers/Auth/Auth0IndexController.php)
-- [/app/Providers/Auth0ServiceProvider.php](https://github.com/KeisukeKudo/laravel-auth0-sample/blob/master/app/Providers/Auth0ServiceProvider.php)
-  - [/app/Http/Kernel.php](https://github.com/KeisukeKudo/laravel-auth0-sample/blob/master/config/app.php#L181-L182)
-- [/config/laravel-auth0.php](https://github.com/KeisukeKudo/laravel-auth0-sample/blob/master/config/laravel-auth0.php)
-- [/.env.example](https://github.com/KeisukeKudo/laravel-auth0-sample/blob/master/.env.example#L46-L49)
-- [/tests/Feature/Auth0/AuthenticationTest.php](https://github.com/KeisukeKudo/laravel-auth0-sample/blob/master/tests/Feature/Auth0/AuthenticationTest.php)
+- [app/Http/Controllers/Auth/Auth0IndexController.php](https://github.com/KeisukeKudo/laravel-auth0-sample/blob/master/app/Http/Controllers/Auth/Auth0IndexController.php)
+- [app/Providers/Auth0ServiceProvider.php](https://github.com/KeisukeKudo/laravel-auth0-sample/blob/master/app/Providers/Auth0ServiceProvider.php)
+  - [app/Http/Kernel.php](https://github.com/KeisukeKudo/laravel-auth0-sample/blob/master/config/app.php#L181-L182)
+- [config/laravel-auth0.php](https://github.com/KeisukeKudo/laravel-auth0-sample/blob/master/config/laravel-auth0.php)
+- [.env.example](https://github.com/KeisukeKudo/laravel-auth0-sample/blob/master/.env.example#L46-L49)
+- [tests/Feature/Auth0/AuthenticationTest.php](https://github.com/KeisukeKudo/laravel-auth0-sample/blob/master/tests/Feature/Auth0/AuthenticationTest.php)
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
