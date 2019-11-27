@@ -38,9 +38,6 @@ class AuthenticationTest extends TestCase
         $this->assertContains('client_id=' . $this->config['client_id'], $query);
     }
 
-    /**
-     * @throws \Auth0\SDK\Exception\CoreException
-     */
     public function test_Logout()
     {
         $user = User::create([
