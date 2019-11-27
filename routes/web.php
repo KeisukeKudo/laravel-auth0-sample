@@ -16,7 +16,7 @@ Route::get('/auth0/callback', '\Auth0\Login\Auth0Controller@callback')
 
 Route::get('/auth/login', 'Auth\Auth0IndexController@login')
     ->name('login');
-Route::get('/auth/logout', 'Auth\Auth0IndexController@logout')
+Route::post('/auth/logout', 'Auth\Auth0IndexController@logout')
     ->name('logout')
     ->middleware('auth');
 

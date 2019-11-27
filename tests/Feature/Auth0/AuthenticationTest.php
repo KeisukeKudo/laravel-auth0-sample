@@ -50,7 +50,13 @@ class AuthenticationTest extends TestCase
             'email' => 'example@mail.com',
             'password' => 'password'
         ]);
+
         auth()->login($user);
-        $this->assertAuthenticatedAs($user);
+
+        $this->actingAs($user)->post(route('logout'))
+            ->assertStatus(302)
+            ->assertRedirect(config('laravel-auth0.logout_url'));
+
+        $this->assertGuest();
     }
 }
