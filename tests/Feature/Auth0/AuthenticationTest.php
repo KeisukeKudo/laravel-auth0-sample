@@ -7,7 +7,7 @@ use Auth0\Login\Auth0Service;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
-class Auth0Test extends TestCase
+class AuthenticationTest extends TestCase
 {
     use RefreshDatabase;
 
